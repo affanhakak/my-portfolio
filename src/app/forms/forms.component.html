@@ -1,0 +1,90 @@
+<div class="container-fluid mb-5">
+  <h1>Contact Me</h1>
+  <hr />
+  <div class="alert alert-danger" *ngIf="errorMsg">
+    {{ errorMsg }}
+  </div>
+  <form
+    #userForm="ngForm"
+    *ngIf="!submitted"
+    (ngSubmit)="onSubmit()"
+    novalidate
+  >
+    <div class="form-group">
+      <label>Name</label>
+      <input
+        class="form-control"
+        [class.is-invalid]="name.invalid && name.touched"
+        required
+        name="userName"
+        [(ngModel)]="userModel.name"
+        type="text"
+        #name="ngModel"
+      />
+      <em class="text-danger" [class.d-none]="name.valid || name.untouched">
+        Name is required
+      </em>
+    </div>
+
+    <div class="form-group">
+      <label>Email</label>
+      <input
+        class="form-control"
+        [class.is-invalid]="email.invalid && email.touched"
+        required
+        email
+        name="email"
+        [(ngModel)]="userModel.email"
+        type="email"
+        #email="ngModel"
+      />
+      <em class="text-danger" [class.d-none]="email.valid || email.untouched"
+        >Email is required and should be valid</em
+      >
+    </div>
+
+    <div class="form-group">
+      <label>Phone</label>
+      <input
+        class="form-control"
+        [class.is-invalid]="phone.invalid && phone.touched"
+        pattern="^\d{12}$"
+        required
+        name="phone"
+        [(ngModel)]="userModel.phone"
+        type="tel"
+        #phone="ngModel"
+      />
+      <em class="text-danger" [class.d-none]="phone.valid || phone.untouched"
+        >Please enter a valid Phone Number</em
+      >
+    </div>
+    <div class="form-group">
+      <label>Text area</label>
+      <textarea
+        class="form-control"
+        [class.is-invalid]="textarea.invalid && textarea.touched"
+        required
+        name="textarea"
+        [(ngModel)]="userModel.textarea"
+        type="textarea"
+        #textarea="ngModel"
+        cols="30"
+        rows="10"
+      ></textarea>
+      <em
+        class="text-danger"
+        [class.d-none]="textarea.valid || textarea.untouched"
+        >Text area can't be empty</em
+      >
+    </div>
+
+    <button
+      [disabled]="userForm.form.invalid"
+      class="btn btn-primary"
+      type="submit"
+    >
+      Submit Form
+    </button>
+  </form>
+</div>

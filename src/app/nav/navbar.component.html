@@ -1,0 +1,91 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a [routerLink]="['/myinfo']" class="navbar-brand">Affan Showkat Hakak</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarScroll"
+      aria-controls="navbarScroll"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarScroll">
+      <ul
+        class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+        style="--bs-scroll-height: 100px"
+      >
+        <li class="nav-item">
+          <a
+            [routerLink]="['/projects']"
+            [routerLinkActive]="['active']"
+            class="nav-link active"
+            aria-current="page"
+            >Home</a
+          >
+        </li>
+
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            id="navbarScrollingDropdown"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Projects
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+            <li>
+              <a class="dropdown-item" href="#"
+                >Calorie Tracker App (Angular)</a
+              >
+            </li>
+            <li>
+              <a class="dropdown-item" href="http://simplecounterjs.netlify.app"
+                >Simple Counter (Java Script)</a
+              >
+            </li>
+
+            <li>
+              <a class="dropdown-item" href="#"
+                >Calorie Tracker (Java Script)</a
+              >
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">Todo-List (JavaScript)</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a
+            [routerLink]="['/myarticles']"
+            [routerLinkActive]="['active']"
+            class="nav-link active"
+            aria-current="page"
+            >My Articles</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            [routerLink]="['/contactme']"
+            [routerLinkActive]="['active']"
+            class="nav-link active"
+            aria-current="page"
+            >Contact Me</a
+          >
+        </li>
+      </ul>
+      <form id="searchForm" class="navbar-form navbar">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search Google" />
+        </div>
+        <button class="btn btn-primary" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
