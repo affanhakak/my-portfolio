@@ -5,21 +5,30 @@ import { Component } from '@angular/core';
   styles: [
     `
       .card {
-        height: 35rem;
-        margin: auto;
-        background-color: grey;
+        display: flex;
+        justify-content: center;
+        height: 30rem;
+        margin-top: 50px;
+        background-color: #335c67;
+      }
+
+      .card:hover {
+        background-color: #161a1d;
+        transition: 0.5s ease-in;
       }
       .card-title {
-        margin-top: 10px;
-        color: black;
+        text-align: center;
+        font-family: poppins;
+        font-weight: strong;
         font-size: 20px;
-        font-style: italic;
+        color: white;
+        margin-botton: 20px;
       }
       .card-text {
-        color: black;
-        font-size: 20px;
-        font-style: italic;
-        padding: 5px;
+        text-align: center;
+        font-family: poppins;
+        font-size: 14px;
+        color: white;
       }
     `,
   ],

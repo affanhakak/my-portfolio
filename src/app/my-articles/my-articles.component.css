@@ -12,7 +12,7 @@ h1 {
 }
 
 p {
-  color: #fff;
+  color: #03071e;
   font-size: 20px;
   font-weight: 300;
   line-height: 22px;
@@ -28,7 +28,7 @@ p {
 
 .course-col {
   flex-basis: 31%;
-  background: grey;
+  background: #adb5bd;
   border-radius: 10px;
   margin-bottom: 5%;
   padding: 20px 12px;
@@ -40,10 +40,11 @@ h3 {
   font-weight: 400;
   margin-top: 10px;
   margin-bottom: 10px;
+  color: black;
 }
 
 .course-col:hover {
   box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
-  background-color: transparent;
+  background-color: #343a40;
   transition: 0.5s ease-in;
 }

@@ -1,6 +1,8 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
-    <a [routerLink]="['/myinfo']" class="navbar-brand">Affan Showkat Hakak</a>
+    <a [routerLink]="['/myinfo']" id="navcompitem-1" class="navbar-brand"
+      >Affan Showkat Hakak</a
+    >
     <button
       class="navbar-toggler"
       type="button"
@@ -12,80 +14,107 @@
     >
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarScroll">
-      <ul
-        class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
-        style="--bs-scroll-height: 100px"
-      >
-        <li class="nav-item">
-          <a
-            [routerLink]="['/projects']"
-            [routerLinkActive]="['active']"
-            class="nav-link active"
-            aria-current="page"
-            >Home</a
-          >
-        </li>
+    <div id="navcomp">
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul
+          class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+          style="--bs-scroll-height: 100px"
+        >
+          <li id="navcompitem" class="nav-item">
+            <a
+              [routerLink]="['/projects']"
+              [routerLinkActive]="['active']"
+              class="nav-link active"
+              aria-current="page"
+              >Home</a
+            >
+          </li>
 
-        <li class="nav-item dropdown">
-          <a
-            class="nav-link dropdown-toggle"
-            href="#"
-            id="navbarScrollingDropdown"
-            role="button"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          >
-            Projects
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-            <li>
-              <a class="dropdown-item" href="#"
-                >Calorie Tracker App (Angular)</a
-              >
-            </li>
-            <li>
-              <a class="dropdown-item" href="http://simplecounterjs.netlify.app"
-                >Simple Counter (Java Script)</a
-              >
-            </li>
+          <li id="navcompitem" class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarScrollingDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Projects
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+              <li>
+                <a
+                  target="_blank"
+                  class="dropdown-item"
+                  href="https://calorie-tracker-ah.netlify.app/"
+                  >Calorie Tracker App (Angular)</a
+                >
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  class="dropdown-item"
+                  href="https://counter-ah.netlify.app"
+                  >Simple Counter (Java Script)</a
+                >
+              </li>
 
-            <li>
-              <a class="dropdown-item" href="#"
-                >Calorie Tracker (Java Script)</a
-              >
-            </li>
-            <li>
-              <a class="dropdown-item" href="#">Todo-List (JavaScript)</a>
-            </li>
-          </ul>
-        </li>
+              <li>
+                <a
+                  target="_blank"
+                  class="dropdown-item"
+                  href="https://cal-tracker-js-ah.netlify.app"
+                  >Calorie Tracker (Java Script)</a
+                >
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  class="dropdown-item"
+                  href="https://todo-app-ah.netlify.app"
+                  >Todo-List (JavaScript)</a
+                >
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  class="dropdown-item"
+                  href="https://calculator-ah.netlify.app"
+                  >Calculator (JavaScript)</a
+                >
+              </li>
 
-        <li class="nav-item">
-          <a
-            [routerLink]="['/myarticles']"
-            [routerLinkActive]="['active']"
-            class="nav-link active"
-            aria-current="page"
-            >My Articles</a
-          >
-        </li>
-        <li class="nav-item">
-          <a
-            [routerLink]="['/contactme']"
-            [routerLinkActive]="['active']"
-            class="nav-link active"
-            aria-current="page"
-            >Contact Me</a
-          >
-        </li>
-      </ul>
-      <form id="searchForm" class="navbar-form navbar">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search Google" />
-        </div>
-        <button class="btn btn-primary" type="submit">Search</button>
-      </form>
+              <li>
+                <a
+                  target="_blank"
+                  class="dropdown-item"
+                  href="https://musuem-of-candy-ah.netlify.app"
+                  >Candy Musuem (Bootstrap)</a
+                >
+              </li>
+            </ul>
+          </li>
+
+          <li id="navcompitem" class="nav-item">
+            <a
+              [routerLink]="['/myarticles']"
+              [routerLinkActive]="['active']"
+              class="nav-link active"
+              aria-current="page"
+              >My Articles</a
+            >
+          </li>
+          <li id="navcompitem" class="nav-item">
+            <a
+              [routerLink]="['/contactme']"
+              [routerLinkActive]="['active']"
+              class="nav-link active"
+              aria-current="page"
+              >Contact Me</a
+            >
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
 </nav>

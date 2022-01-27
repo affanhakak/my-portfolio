@@ -8,9 +8,9 @@ import { Component, Input } from '@angular/core';
       class="well hoverwell thumbnail"
     >
       <h2>{{ project?.name }}</h2>
+      <hr />
 
       <div>Date: {{ project?.date }}</div>
-
       <div>Type: {{ project?.type }}</div>
       <div>Info: {{ project?.info }}</div>
     </div>
@@ -19,6 +19,11 @@ import { Component, Input } from '@angular/core';
     `
       .thumbnail {
         min-height: 210px;
+      }
+      .thumbnail:hover {
+        color: black;
+        background-color: #adb5bd;
+        transition: 0.3s ease-in;
       }
     `,
   ],
