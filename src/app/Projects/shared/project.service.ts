@@ -37,7 +37,7 @@ const PROJECTS = [
   },
   {
     id: 4,
-    name: 'Todo List App',
+    name: 'Todo List App Vanilla-JS',
     date: '20/10/2020',
     type: 'Vanilla JS',
     url: 'https://todo-app-ah.netlify.app',
@@ -45,7 +45,7 @@ const PROJECTS = [
   },
   {
     id: 5,
-    name: 'Calculator',
+    name: 'Simple Calculator Vanilla-JS',
     date: '01/08/2019',
     type: 'Vanilla JS',
     url: 'https://calculator-ah.netlify.app',
@@ -53,7 +53,7 @@ const PROJECTS = [
   },
   {
     id: 6,
-    name: 'Candy Musuem',
+    name: 'Candy Musuem (Bootstrap)',
     date: '28/03/2019',
     type: 'Bootstrap/CSS',
     url: 'https://musuem-of-candy-ah.netlify.app',

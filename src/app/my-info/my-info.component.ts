@@ -6,7 +6,8 @@ import { Component } from '@angular/core';
     `
       .card {
         display: flex;
-        justify-content: center;
+        justify-content: space-evenly;
+        align-items: center;
         height: 30rem;
         margin-top: 50px;
         background-color: #335c67;
