@@ -65,7 +65,7 @@ const PROJECTS = [
     date: '01/07/2019',
     type: 'Vanilla JS',
     url: 'https://affan-s-scorekeeper.netlify.app',
-    info: 'An app to keep track of scores of two players',
+    info: 'An app to keep track of scores of two players or even two teams',
   },
   {
     id: 8,
@@ -73,6 +73,6 @@ const PROJECTS = [
     date: '01/07/2019',
     type: 'Vanilla JS',
     url: 'https://affan-s-moviesapp.netlify.app',
-    info: 'An app to search your favourite movies',
+    info: 'An app to search your favourite movies, this app uses/hits an api',
   },
 ];
