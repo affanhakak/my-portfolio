@@ -16,7 +16,7 @@ const PROJECTS = [
     name: 'Calorie Tracker App-1',
     date: '10/9/2020',
     type: 'Angular',
-    url: 'https://calorie-tracker-ah.netlify.app',
+    url: 'https://affan-s-calorietracker2.netlify.app',
     info: 'Calorie Tracker App is an app and website that tracks diet and keeps note of all the calories',
   },
   {
@@ -24,7 +24,7 @@ const PROJECTS = [
     name: 'Simple Counter App',
     date: '10/9/2020',
     type: 'Vanilla JS',
-    url: 'https://counter-ah.netlify.app',
+    url: 'https://affan-s-counter.netlify.app',
     info: 'A simple counter to keep scores and increment and decrement them',
   },
   {
@@ -32,7 +32,7 @@ const PROJECTS = [
     name: 'Calorie Tracker App-2',
     date: '25/9/2020',
     type: 'Vanilla JS',
-    url: 'https://cal-tracker-js-ah.netlify.app',
+    url: 'https://affan-s-caltracker1.netlify.app',
     info: 'Calorie Tracker App is an app and website that tracks diet and keeps note of all the calories',
   },
   {
@@ -40,7 +40,7 @@ const PROJECTS = [
     name: 'Todo List App Vanilla-JS',
     date: '20/10/2020',
     type: 'Vanilla JS',
-    url: 'https://todo-app-ah.netlify.app',
+    url: 'https://affan-s-todo.netlify.app',
     info: 'Todo List App is an app and website that tracks your daily activities',
   },
   {
@@ -48,7 +48,7 @@ const PROJECTS = [
     name: 'Simple Calculator Vanilla-JS',
     date: '01/08/2019',
     type: 'Vanilla JS',
-    url: 'https://calculator-ah.netlify.app',
+    url: 'https://affan-s-calci.netlify.app',
     info: 'A simple calculator for performing mathematical operations',
   },
   {
@@ -56,7 +56,23 @@ const PROJECTS = [
     name: 'Candy Musuem (Bootstrap)',
     date: '28/03/2019',
     type: 'Bootstrap/CSS',
-    url: 'https://musuem-of-candy-ah.netlify.app',
+    url: 'https://affan-s-candymuseum.netlify.app',
     info: 'A simple dummy responsive website using bootstrap and css',
+  },
+  {
+    id: 7,
+    name: 'Score Keeper Vanilla-JS',
+    date: '01/07/2019',
+    type: 'Vanilla JS',
+    url: 'https://affan-s-scorekeeper.netlify.app',
+    info: 'An app to keep track of scores of two players',
+  },
+  {
+    id: 8,
+    name: 'Movie Search Vanilla-JS',
+    date: '01/07/2019',
+    type: 'Vanilla JS',
+    url: 'https://affan-s-moviesapp.netlify.app',
+    info: 'An app to search your favourite movies',
   },
 ];
