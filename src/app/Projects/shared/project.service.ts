@@ -69,7 +69,7 @@ const PROJECTS = [
   },
   {
     id: 8,
-    name: 'Movie Search Vanilla-JS',
+    name: 'TV-Series search app',
     date: '01/07/2019',
     type: 'Vanilla JS',
     url: 'https://affan-s-tvsearchapp.netlify.app',
