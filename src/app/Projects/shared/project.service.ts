@@ -72,7 +72,7 @@ const PROJECTS = [
     name: 'Movie Search Vanilla-JS',
     date: '01/07/2019',
     type: 'Vanilla JS',
-    url: 'https://affan-s-moviesapp.netlify.app',
+    url: 'https://affan-s-tvsearchapp.netlify.app',
     info: 'An app to search your favourite movies, this app hits an api',
   },
 ];
