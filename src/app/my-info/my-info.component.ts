@@ -31,6 +31,10 @@ import { Component } from '@angular/core';
         font-size: 14px;
         color: white;
       }
+      .img {
+        height: 100px;
+        width: 100px;
+      }
     `,
   ],
 })
