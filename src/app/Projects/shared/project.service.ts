@@ -53,11 +53,11 @@ const PROJECTS = [
   },
   {
     id: 6,
-    name: 'Candy Musuem (Bootstrap)',
+    name: 'E-Com App (Angular)',
     date: '28/03/2019',
-    type: 'Bootstrap/CSS',
-    url: 'https://affan-s-candymuseum.netlify.app',
-    info: 'A simple dummy responsive website using bootstrap and css',
+    type: 'Angular',
+    url: 'https://affan-s-ecomapp.netlify.app',
+    info: 'A dummy E-com application responsive website using Angular',
   },
   {
     id: 7,
