@@ -13,6 +13,14 @@ export class ProjectService {
 const PROJECTS = [
   {
     id: 1,
+    name: 'E-Com App (Angular)',
+    date: '28/03/2019',
+    type: 'Angular',
+    url: 'https://affan-s-ecomapp.netlify.app',
+    info: 'A dummy E-com application responsive website using Angular',
+  },
+  {
+    id: 2,
     name: 'Calorie Tracker App-1',
     date: '10/9/2020',
     type: 'Angular',
@@ -20,7 +28,7 @@ const PROJECTS = [
     info: 'Calorie Tracker App is an app and website that tracks diet and keeps note of all the calories',
   },
   {
-    id: 2,
+    id: 3,
     name: 'Simple Counter App',
     date: '10/9/2020',
     type: 'Vanilla JS',
@@ -28,7 +36,7 @@ const PROJECTS = [
     info: 'A simple counter to keep scores and increment and decrement them',
   },
   {
-    id: 3,
+    id: 4,
     name: 'Calorie Tracker App-2',
     date: '25/9/2020',
     type: 'Vanilla JS',
@@ -36,7 +44,7 @@ const PROJECTS = [
     info: 'Calorie Tracker App is an app and website that tracks diet and keeps note of all the calories',
   },
   {
-    id: 4,
+    id: 5,
     name: 'Todo List App Vanilla-JS',
     date: '20/10/2020',
     type: 'Vanilla JS',
@@ -44,20 +52,12 @@ const PROJECTS = [
     info: 'Todo List App is an app and website that tracks your daily activities',
   },
   {
-    id: 5,
-    name: 'Simple Calculator Vanilla-JS',
+    id: 6,
+    name: 'Simple Calci Vanilla-JS',
     date: '01/08/2019',
     type: 'Vanilla JS',
     url: 'https://affan-s-calci.netlify.app',
     info: 'A simple calculator for performing mathematical operations',
-  },
-  {
-    id: 6,
-    name: 'E-Com App (Angular)',
-    date: '28/03/2019',
-    type: 'Angular',
-    url: 'https://affan-s-ecomapp.netlify.app',
-    info: 'A dummy E-com application responsive website using Angular',
   },
   {
     id: 7,

@@ -21,8 +21,8 @@ import { Component, Input } from '@angular/core';
         diaplay: flex;
         justify-content: space-around;
         align-items: center;
-        height: 220px;
-        width: 450px;
+        height: 230px;
+        width: 400px;
       }
       .thumbnail:hover {
         color: black;
