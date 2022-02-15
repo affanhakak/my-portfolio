@@ -18,11 +18,11 @@ import { Component, Input } from '@angular/core';
   styles: [
     `
       .thumbnail {
-        min-height: auto;
-        min-width: auto;
         diaplay: flex;
-        justify-content: space-evenly;
+        justify-content: space-around;
         align-items: center;
+        height: 220px;
+        width: 450px;
       }
       .thumbnail:hover {
         color: black;
