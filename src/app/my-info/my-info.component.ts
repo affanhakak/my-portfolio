@@ -19,7 +19,9 @@ import { Component } from '@angular/core';
       }
       @media only screen and (max-width: 600px) {
         .container {
-          display: block;
+          display: flex;
+          justify-content: center;
+          align-items: center;
         }
       }
 
