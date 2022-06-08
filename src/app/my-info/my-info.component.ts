@@ -8,11 +8,24 @@ import { Component } from '@angular/core';
         display: flex;
         justify-content: space-around;
         align-items: center;
-        align-items: center;
+      }
+      @media only screen and (max-width: 1024px) {
+        .container {
+          display: flex;
+          margin-left: 0;
+          margin-top: 30px;
+          margin-bottom: 30px;
+        }
+      }
+      @media only screen and (max-width: 600px) {
+        .container {
+          display: block;
+        }
       }
 
       .card {
-        height: 30rem;
+        display: flex;
+        height: 100%;
         margin-top: 50px;
         background-color: #335c67;
       }
@@ -21,6 +34,7 @@ import { Component } from '@angular/core';
         background-color: #161a1d;
         transition: 0.5s ease-in;
       }
+
       .card-title {
         text-align: center;
         font-family: poppins;

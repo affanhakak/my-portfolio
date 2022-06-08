@@ -25,7 +25,7 @@ const PROJECTS = [
     date: '10/9/2020',
     type: 'Angular',
     url: 'https://affan-s-calorietracker2.netlify.app',
-    info: 'Calorie Tracker App is an app and website that tracks diet and keeps note of all the calories',
+    info: 'An app that tracks diet and keeps note of all the calories',
   },
   {
     id: 3,
@@ -33,7 +33,7 @@ const PROJECTS = [
     date: '10/9/2020',
     type: 'Vanilla JS',
     url: 'https://affan-s-counter.netlify.app',
-    info: 'A simple counter to keep scores and increment and decrement them',
+    info: 'A counter to keep scores and increment and decrement them',
   },
   {
     id: 4,
@@ -41,7 +41,7 @@ const PROJECTS = [
     date: '25/9/2020',
     type: 'Vanilla JS',
     url: 'https://affan-s-caltracker1.netlify.app',
-    info: 'Calorie Tracker App is an app and website that tracks diet and keeps note of all the calories',
+    info: 'An app that tracks diet and keeps note of all the calories',
   },
   {
     id: 5,
@@ -49,7 +49,7 @@ const PROJECTS = [
     date: '20/10/2020',
     type: 'Vanilla JS',
     url: 'https://affan-s-todo.netlify.app',
-    info: 'Todo List App is an app and website that tracks your daily activities',
+    info: 'An app that tracks your daily activities to keep a record',
   },
   {
     id: 6,
@@ -65,7 +65,7 @@ const PROJECTS = [
     date: '01/07/2019',
     type: 'Vanilla JS',
     url: 'https://affan-s-scorekeeper.netlify.app',
-    info: 'An app to keep track of scores of two players or even two teams',
+    info: 'An app to track scores of two players or even two teams',
   },
   {
     id: 8,

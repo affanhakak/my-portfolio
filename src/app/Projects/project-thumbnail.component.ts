@@ -18,14 +18,25 @@ import { Component, Input } from '@angular/core';
   styles: [
     `
       .thumbnail {
-        diaplay: flex;
-        justify-content: space-between;
         align-items: center;
-        height: auto;
+        height: 90%;
         width: auto;
       }
       @media only screen and (max-width: 1024px) {
-        display: block;
+        .thumbnail {
+          display: block;
+          height: 90%;
+          width: 100%;
+          margin-bottom: 20px;
+        }
+      }
+      @media only screen and (max-width: 600px) {
+        .thumbnail {
+          display: block;
+          height: 90%;
+          width: 100%;
+          margin-bottom: 20px;
+        }
       }
       .thumbnail:hover {
         color: black;
