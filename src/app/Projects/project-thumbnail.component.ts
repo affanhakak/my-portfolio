@@ -19,10 +19,13 @@ import { Component, Input } from '@angular/core';
     `
       .thumbnail {
         diaplay: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
-        height: 230px;
-        width: 400px;
+        height: auto;
+        width: auto;
+      }
+      @media only screen and (max-width: 1024px) {
+        display: block;
       }
       .thumbnail:hover {
         color: black;
