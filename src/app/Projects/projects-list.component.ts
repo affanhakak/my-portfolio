@@ -4,7 +4,7 @@ import { ProjectService } from './shared/project.service';
 @Component({
   template: `
     <div>
-      <h1>My Projects in Angular and Vanilla JS</h1>
+      <h1>My Projects</h1>
       <hr />
       <div class="row">
         <div *ngFor="let project of projects" class="col-md-5">

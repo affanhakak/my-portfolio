@@ -18,10 +18,20 @@ import { Component, Input } from '@angular/core';
   styles: [
     `
       .thumbnail {
-        align-items: center;
+        display: block;
         height: 90%;
-        width: auto;
+        width: 100%;
+        margin-bottom: 20px;
+        transition: transform 0.3s ease-in, box-shadow 0.3s ease-in;
       }
+
+      .thumbnail:hover {
+        color: black;
+        background-color: #444;
+        transform: scale(1.1); /* Enlarge on hover */
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Add shadow to create depth */
+      }
+
       @media only screen and (max-width: 1024px) {
         .thumbnail {
           display: block;
