@@ -11,7 +11,7 @@ import { Component, Input } from '@angular/core';
       <hr />
 
       <div>Date: {{ project?.date }}</div>
-      <div>Type: {{ project?.type }}</div>
+      <div>Type: {{ project?.tech_used }}</div>
       <div>Info: {{ project?.info }}</div>
     </div>
   `,

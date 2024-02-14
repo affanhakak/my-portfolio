@@ -3,6 +3,7 @@
   justify-content: space-around;
   align-items: center;
 }
+
 .text {
   font-size: 15px;
   font-family: poppins;
@@ -12,6 +13,7 @@
 .col {
   color: black;
   background-color: #b1a7a6;
+  margin-right: 10px;
 }
 
 h3 {
