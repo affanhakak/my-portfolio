@@ -23,6 +23,9 @@ import { Component, Input } from '@angular/core';
         width: 100%;
         margin-bottom: 20px;
         transition: transform 0.3s ease-in, box-shadow 0.3s ease-in;
+        border-radius: 10px;
+        background-color:#66666e;
+        color:#1e2019;
       }
 
       .thumbnail:hover {
@@ -30,6 +33,8 @@ import { Component, Input } from '@angular/core';
         background-color: #444;
         transform: scale(1.1); /* Enlarge on hover */
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Add shadow to create depth */
+        background-color:#1e2019;
+        color:#66666e;
       }
 
       @media only screen and (max-width: 1024px) {
@@ -47,11 +52,6 @@ import { Component, Input } from '@angular/core';
           width: 100%;
           margin-bottom: 20px;
         }
-      }
-      .thumbnail:hover {
-        color: black;
-        background-color: #adb5bd;
-        transition: 0.3s ease-in;
       }
     `,
   ],
